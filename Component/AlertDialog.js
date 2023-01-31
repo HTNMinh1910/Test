@@ -53,6 +53,7 @@ const Dialog = (props) => {
                 imagelink: imagelink,
               },
             ]);
+            setShow(false);
           }}>
           <Text style={styles.button}>Save</Text>
         </TouchableOpacity>
